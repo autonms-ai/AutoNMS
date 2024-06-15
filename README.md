@@ -7,7 +7,7 @@ This release version of AutoNMS is only designed to have limited use (of up to 5
 
 Run the parent script (AutoNMS or AutoNMS.py) on a place that has access (via ssh) to any and all of the nodes you wish to discover.  
 
-Modify the source 'nodes.txt' file (in CSV format), specifying each new line with the following format:  <ip address> ,<username> ,<password1> ,<optional_password2> (remove spaces between values and commas).  Make sure this source file is in the same directory as AutoNMS.
+Modify the source 'nodes.txt' file (in CSV format), specifying each new line with the following format:  <ip_address> ,<user_name> ,<pass_word1> ,<optional_password2> (remove spaces between values and commas).  Make sure this source file is in the same directory as AutoNMS.
 
 AutoNMS will retrieve information from each device on your nodes.txt list, and use that information to 'visualize' your network in a way you've never experienced it before.  
 
